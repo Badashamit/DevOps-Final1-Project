@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/YourUsername/DevOps-Jenkins-Project.git'
+                git 'https://github.com/Badashamit/DevOps-Final1-Project.git'
             }
         }
         stage('Run Script') {
