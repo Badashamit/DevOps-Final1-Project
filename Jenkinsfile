@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Badashamit/DevOps-Final1-Project.git'
+              git branch: 'main', url: 'https://github.com/Badashamit/DevOps-Final1-Project.git'
+
             }
         }
         stage('Run Script') {
